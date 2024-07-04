@@ -24,11 +24,11 @@ components:
       type: Image
       layout_properties: {grid_position: 'FMWFJN,ONDLTS HXZMAS,UWVWZV'}
     - name: label_2
-      properties: {text: G-Wallet, font_size: 30}
+      properties: {text: G-Wallet, font_size: 30, bold: true}
       type: Label
       layout_properties: {grid_position: 'FMWFJN,ONDLTS HXZMAS,MCDQTT'}
     - name: image_2
-      properties: {height: 625.6000061035156, source: _/theme/banking-operations-abstract-concept-vector-illustration_107173-24723.jpg}
+      properties: {height: 554.1999816894531, source: _/theme/banking-operations-abstract-concept-vector-illustration_107173-24723.jpg}
       type: Image
       layout_properties: {grid_position: 'FMWFJN,ONDLTS'}
     - name: spacer_2
