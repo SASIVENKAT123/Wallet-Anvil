@@ -74,29 +74,42 @@ components:
       type: Button
       layout_properties: {}
       event_bindings: {click: button_3_click}
-  - name: xy_panel_1
-    properties: {height: 392.1999816894531, background: '#0d5b9b'}
-    type: XYPanel
-    layout_properties: {grid_position: 'UNWVHK,WVTTRG', full_width_row: true}
+  - name: grid_panel_3
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'MRYANU,JKAFVQ'}
     components:
-    - name: image
-      properties: {height: 325, source: _/theme/tri.png}
-      type: Image
-      layout_properties: {x: 740.1125000007451, y: 32.03749542310834, width: 708.7250366210938}
-    - name: button_1
-      properties: {bold: true, align: full, background: white, font: '', foreground: 'theme:Primary 500', border: 1px solid, italic: false, font_size: 16, text: Get started}
-      type: Button
-      layout_properties: {x: 148.912533570081, y: 315.58752822875977, width: 581.199981689453}
-      event_bindings: {click: button_1_click}
-    - name: label_4
-      properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: white, spacing_below: small, visible: true, border: '', italic: true, font_size: 16, tooltip: '', text: 'We''re driven by a passion for financial empowerment and technological innovation. Our mission is simple: to provide individuals worldwide with a revolutionary multi-currency platform for managing their finances in a seamless and efficient manner.'}
-      type: Label
-      layout_properties: {x: 149.22500305250287, y: 162.1750044822693, width: 598.8375244140625}
-    - name: label_3
-      properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: a, icon_align: left, foreground: white, spacing_below: small, visible: true, border: '', italic: false, font_size: 30, tooltip: '', text: Empower your finances with G-Wallet and transcend borders with ease.}
-      type: Label
-      layout_properties: {x: 141.80000000074506, y: 35.887501526623964, width: 616.525}
-      data_bindings: []
+    - name: grid_panel_4
+      properties: {}
+      type: GridPanel
+      layout_properties: {row: SWQNRF, width_xs: 2, col_xs: 8}
+    - name: grid_panel_2
+      properties: {background: '#0d5b9b'}
+      type: GridPanel
+      layout_properties: {row: NDAIOG, width_xs: 8, col_xs: 0}
+      components:
+      - name: spacer_7
+        properties: {height: 32}
+        type: Spacer
+        layout_properties: {row: VCGYTM, width_xs: 2, col_xs: 5}
+      - name: label_3
+        properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: a, icon_align: left, foreground: white, spacing_below: small, visible: true, border: '', italic: false, font_size: 30, tooltip: '', text: Empower your finances with G-Wallet and transcend borders with ease.}
+        type: Label
+        layout_properties: {row: YNLGRO, width_xs: 5, col_xs: 1}
+        data_bindings: []
+      - name: label_4
+        properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: white, spacing_below: small, visible: true, border: '', italic: true, font_size: 16, tooltip: '', text: 'We''re driven by a passion for financial empowerment and technological innovation. Our mission is simple: to provide individuals worldwide with a revolutionary multi-currency platform for managing their finances in a seamless and efficient manner.'}
+        type: Label
+        layout_properties: {row: DROPWG, width_xs: 5, col_xs: 1}
+      - name: spacer_3
+        properties: {height: 6.399932861328125}
+        type: Spacer
+        layout_properties: {row: YWCBCG, width_xs: 2, col_xs: 4}
+      - name: button_1
+        properties: {bold: true, align: full, background: white, font: '', foreground: 'theme:Primary 500', border: 1px solid, italic: false, font_size: 16, text: Get started}
+        type: Button
+        layout_properties: {row: PHVNKO, width_xs: 5, col_xs: 1}
+        event_bindings: {click: button_1_click}
   - name: spacer_2
     properties: {height: 32}
     type: Spacer
