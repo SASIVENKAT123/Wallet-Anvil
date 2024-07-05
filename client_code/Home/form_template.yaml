@@ -115,7 +115,7 @@ components:
     type: Spacer
     layout_properties: {grid_position: 'MRCZOO,RBSYOY'}
   - name: card_2
-    properties: {role: card, col_widths: '{"IPMJZD":37,"MLFIIN":10,"HXQFZP":50}', background: '#f2f2f'}
+    properties: {role: card, col_widths: '{"IPMJZD":32,"MLFIIN":10,"HXQFZP":50,"IFLNXV":35}', background: '#f2f2f'}
     type: ColumnPanel
     layout_properties: {grid_position: 'LPKFDV,OXLQWL', full_width_row: true}
     components:
@@ -165,99 +165,114 @@ components:
     type: Spacer
     layout_properties: {grid_position: 'XYJBAI,KQPDZU'}
   - name: card_2_copy_3
-    properties: {role: card, col_widths: '{"IPMJZD":37,"HGCAGA":33}', background: '#f2f2f'}
+    properties: {role: card, col_widths: '{"IPMJZD":26,"XWYCRR":10,"YYFITH":50,"AYFMWS":30}', background: '#f2f2f'}
     type: ColumnPanel
     layout_properties: {grid_position: 'FKWMBC,USQMLL', full_width_row: true}
     components:
-    - name: xy_panel_7_copy_3
-      properties: {height: 519.1999816894531}
-      type: XYPanel
-      layout_properties: {grid_position: 'TQNXKD,HGCAGA', full_width_row: false}
-      components:
-      - name: label_5_copy_2_copy_3
-        properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '#11466e', spacing_below: small, visible: true, border: '', italic: false, font_size: 25, tooltip: '', text: Make direct payments from your bank account to anyone.}
-        type: Label
-        layout_properties: {x: -7.4000091552734375, y: 195.0001220703125, width: 448.20001220703125}
-      - name: label_2_copy_copy_copy_3
-        properties: {role: null, bold: false, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: true, font_size: 16, tooltip: '', text: 'Pay everyone, anywhere. Pay securely and contactlessly online by utilising your bank account directly. Send and receive money from anybody as well.'}
-        type: Label
-        layout_properties: {x: -7.4124908447265625, y: 317.0001220703125, width: 448.20000000000005}
-      - name: button_2_copy_3
-        properties: {text: Download G-wallet App, align: full, background: '#258ee1', foreground: 'theme:White', bold: true, icon: ''}
-        type: Button
-        layout_properties: {x: -7.4124908447265625, y: 440.2000732421875, width: 454}
-      - name: image_8_copy_3
-        properties: {role: null, vertical_align: center, alt_text: '', spacing_above: small, background: '', horizontal_align: center, source: _/theme/money-transfer.png, foreground: '', display_mode: shrink_to_fit, spacing_below: small, visible: true, border: '', tooltip: '', height: 77}
-        type: Image
-        layout_properties: {grid_position: 'LXPGFD,CZMYNT', x: -7.399993896484375, y: 94, width: 73}
-      - name: label_6_copy_3
-        properties:
-          role: null
-          bold: true
-          align: left
-          spacing_above: small
-          background: ''
-          icon: ''
-          underline: false
-          font: a
-          icon_align: left
-          foreground: ''
-          spacing_below: small
-          visible: true
-          border: ''
-          italic: false
-          font_size: 20
-          tooltip: ''
-          text: |-
-            Money
-            Transfer
-        type: Label
-        layout_properties: {x: 75.61248779296875, y: 97.875, width: 160}
+    - name: image_8_copy_3
+      properties: {role: null, vertical_align: center, alt_text: '', spacing_above: small, background: '', horizontal_align: center, source: _/theme/money-transfer.png, foreground: '', display_mode: shrink_to_fit, spacing_below: small, visible: true, border: '', tooltip: '', height: 77}
+      type: Image
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS VSWWIP,XWYCRR'}
+    - name: label_6_copy_3
+      properties:
+        role: null
+        bold: true
+        align: left
+        spacing_above: small
+        background: ''
+        icon: ''
+        underline: false
+        font: a
+        icon_align: left
+        foreground: ''
+        spacing_below: small
+        visible: true
+        border: ''
+        italic: false
+        font_size: 20
+        tooltip: ''
+        text: |-
+          Money
+          Transfer
+      type: Label
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS VSWWIP,YYFITH'}
+    - name: label_5_copy_2_copy_3
+      properties: {role: null, bold: true, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '#11466e', spacing_below: small, visible: true, border: '', italic: false, font_size: 25, tooltip: '', text: Make direct payments from your bank account to anyone.}
+      type: Label
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS JILZJC,CXKWRY'}
+    - name: label_2_copy_copy_copy_3
+      properties: {role: null, bold: false, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: true, font_size: 16, tooltip: '', text: 'Pay everyone, anywhere. Pay securely and contactlessly online by utilising your bank account directly. Send and receive money from anybody as well.'}
+      type: Label
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS OGMERN,VFALKM'}
+    - name: spacer_1
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS RVYUOS,EMEUXP'}
+    - name: button_2_copy_3
+      properties: {text: Download G-wallet App, align: full, background: '#258ee1', foreground: 'theme:White', bold: true, icon: ''}
+      type: Button
+      layout_properties: {grid_position: 'TQNXKD,AYFMWS WVRHHX,HDCNUC'}
     - name: image_7_copy_3
-      properties: {role: null, vertical_align: center, alt_text: '', spacing_above: small, background: '', horizontal_align: center, source: _/theme/multi-transfer.png, foreground: '', display_mode: shrink_to_fit, spacing_below: small, visible: true, border: '', tooltip: '', height: 534.3999633789062}
+      properties: {role: null, vertical_align: center, alt_text: '', spacing_above: small, background: '', horizontal_align: center, source: _/theme/multi-transfer.png, foreground: '', display_mode: shrink_to_fit, spacing_below: small, visible: true, border: '', tooltip: '', height: 335.79998779296875}
       type: Image
       layout_properties: {grid_position: 'TQNXKD,IPMJZD', full_width_row: false}
+    - name: spacer_8
+      properties: {height: 348.79998779296875}
+      type: Spacer
+      layout_properties: {grid_position: 'MDKETP,AWIWSM'}
+    - name: xy_panel_1
+      properties: {height: 181.60000610351562}
+      type: XYPanel
+      layout_properties: {grid_position: 'SWSGCE,BEKNES'}
+      components: []
     - name: grid_panel_1
       properties: {background: '#c2bdbd'}
       type: GridPanel
       layout_properties: {grid_position: 'XOBZWK,UZXFHB', full_width_row: true}
       components:
       - name: image_3
-        properties: {height: 49.19996643066406, source: _/theme/letter-g.png, horizontal_align: left}
+        properties: {height: 55.19996643066406, source: _/theme/letter-g.png, horizontal_align: left}
         type: Image
-        layout_properties: {row: YAVUEA, width_xs: 2, col_xs: 0}
+        layout_properties: {row: YAVUEA, width_xs: 1, col_xs: 0}
       - name: label_22_copy
         properties: {text: Quick Links, align: left, bold: true, font: verdana, font_size: 16}
         type: Label
-        layout_properties: {row: YAVUEA, width_xs: 2, col_xs: 5}
+        layout_properties: {row: MOXEIW, width_xs: 2, col_xs: 5}
       - name: label_23_copy
         properties: {text: Mail to us, align: left, bold: true, font: verdana, font_size: 15}
         type: Label
-        layout_properties: {row: YAVUEA, width_xs: 2, col_xs: 9}
+        layout_properties: {row: MOXEIW, width_xs: 2, col_xs: 9}
       - name: link_24
         properties: {text: 'What is G-Wallet?', font_size: 15, font: '', foreground: '', underline: false, role: selected, visible: true}
         type: Link
-        layout_properties: {row: EXKSSR, width_xs: 2, col_xs: 5}
+        layout_properties: {row: CTJLVI, width_xs: 2, col_xs: 5}
         event_bindings: {click: link_24_click}
         data_bindings: []
+        components: []
       - name: link_8_copy
         properties: {text: mail@gtpl.in, align: left}
         type: Link
-        layout_properties: {row: EXKSSR, width_xs: 2, col_xs: 9}
+        layout_properties: {row: CTJLVI, width_xs: 2, col_xs: 9}
       - name: link_25
         properties: {text: Products, font_size: 15, font: '', foreground: '', role: hover-link}
         type: Link
-        layout_properties: {row: STLDOA, width_xs: 2, col_xs: 5}
+        layout_properties: {row: EXKSSR, width_xs: 2, col_xs: 5}
         event_bindings: {click: link_25_click}
+        components: []
+      - name: link_26
+        properties: {text: FAQs, font_size: 15, font: '', foreground: '', role: hover-link}
+        type: Link
+        layout_properties: {row: STLDOA, width_xs: 2, col_xs: 5}
+        event_bindings: {click: link_26_click}
       - name: label_24_copy
         properties: {text: Find us, align: left, bold: true, font: verdana, font_size: 15}
         type: Label
         layout_properties: {row: STLDOA, width_xs: 2, col_xs: 9}
-      - name: link_26
-        properties: {text: FAQs, font_size: 15, font: '', foreground: '', role: hover-link}
+      - name: link_27
+        properties: {text: Contact Us, font_size: 15, font: '', foreground: '', role: hover-link}
         type: Link
         layout_properties: {row: ZKXYJX, width_xs: 2, col_xs: 5}
-        event_bindings: {click: link_26_click}
+        event_bindings: {click: link_27_click}
       - name: flow_panel_1
         properties: {align: left}
         type: FlowPanel
@@ -283,11 +298,6 @@ components:
           type: Link
           layout_properties: {}
           event_bindings: {click: link_4_click}
-      - name: link_27
-        properties: {text: Contact Us, font_size: 15, font: '', foreground: '', role: hover-link}
-        type: Link
-        layout_properties: {row: KGYLPY, width_xs: 2, col_xs: 5}
-        event_bindings: {click: link_27_click}
       - name: label_19
         properties: {text: CopyRight2024@G-wallet, bold: true, font_size: 15}
         type: Label
